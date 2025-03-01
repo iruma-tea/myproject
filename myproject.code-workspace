@@ -1,8 +1,11 @@
 {
 	"folders": [
 		{
-			"path": "."
-		}
+			"path": ".",
+		},
+		{
+			"path": "../myproject.wiki"
+		},
 	],
 	"settings": {
 		"workbench.iconTheme": "vscode-icons",
@@ -17,6 +20,11 @@
 			],
 			"editor.formatOnType": true,
 			"editor.wordBasedSuggestions": "off"
+		},
+		"python.envFile": "${workspaceFolder}/.env",
+		"terminal.integrated.env.linux": {
+			"VIRTUAL_ENV": "/home/shusuke/work_python/myproject/.venv",
+			"PATH": "/home/shusuke/work_python/myproject/.venv/bin:${env:PATH}"
 		}
 	}
 }
