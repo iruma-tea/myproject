@@ -12,6 +12,7 @@
 		"workbench.colorTheme": "Monokai",
 		"files.encoding": "utf8",
 		"files.eol": "\n",
+		"editor.formatOnSave": true,
 		"[python]": {
 			"diffEditor.ignoreTrimWhitespace": false,
 			"editor.defaultColorDecorators": "auto",
