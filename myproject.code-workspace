@@ -21,10 +21,17 @@
 			"editor.formatOnType": true,
 			"editor.wordBasedSuggestions": "off"
 		},
+		// ターミナルの設定
 		"python.envFile": "${workspaceFolder}/.env",
 		"terminal.integrated.env.linux": {
 			"VIRTUAL_ENV": "/home/shusuke/work_python/myproject/.venv",
 			"PATH": "/home/shusuke/work_python/myproject/.venv/bin:${env:PATH}"
-		}
+		},
+		// flake8の設定
+		"flake8.enabled": true,
+		"flake8.args": [
+			"--max-line-length=119",
+			"--ignore=E501"
+		]
 	}
 }
