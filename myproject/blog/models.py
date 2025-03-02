@@ -7,5 +7,8 @@ class Post(models.Model):
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
 
+    def get_summary(self):
+        return self.content[:100]  # 最初の100文字を返す。
+
     def __str__(self):
         return self.title
